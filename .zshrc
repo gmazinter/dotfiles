@@ -100,4 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
- alias pn=pnpm
+alias pn=pnpm
+export PROMPT_COMMAND='history -a'
+export HISTFILE=/commandhistory/.zsh_history
